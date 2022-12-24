@@ -1,97 +1,206 @@
-<!--<style>
-    .ex1{
-    top: 0px;
-left: 0px;
-/*width: 1920px;
-height: 1203px;*/
-width: 163px;
-height: 547px;
-/*background: #43425D 0% 0% no-repeat padding-box;*/
-opacity: 1;
-}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-.acme{
-    top: 26px;
-left: 20px;
-width: 74px;
-height: 18px;
-/*background: transparent url('img/logo.png') 0% 0% no-repeat padding-box;*/
-opacity: 1;
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='Dashboard.css' rel='stylesheet'>
+</head>
+  <body>
+    <nav class="navbar navbar-expand d-flex flex-column align-item-start" id="sidebar" style="color: white;">
+        <a href="#" class="navbar-brand mt-5">
+            <div class="display-5 font-weight-bold" style="background-color: #3C3B54;">ACME</div>
+        </a>
+        <ul class="navbar-nav d-flex flex-column mt-5 w-100">
+         <li class="nav-item w-100">
+          <a href="#" class="nav-link pl-4">
+            <img id="icon_home">
+            Home
+          </a>
+        </li>
+        <li class="nav-item w-100">
+            <a href="#" class="nav-link pl-4" style="background-color: #3C3B54;">
+                <img id="icon_dashboard">
+              Dashboard
+            </a>
+          </li>
+          <li class="nav-item w-100">
+            <a href="#" class="nav-link pl-4 notification">
+                <img id="icon_inbox">
+             <span>Inbox</span>
+             <span class="badge">New</span>
+            </a>
+          </li>
+          <li class="nav-item w-100">
+            <a href="#" class="nav-link pl-4">
+                <img id="icon_products">
+              Products
+            </a>
+          </li>
+          <li class="nav-item w-100">
+            <a href="#" class="nav-link pl-4">
+                <img id="icon_admin">
+              Admin
+            </a>
+          </li>
+        </ul>
+    </nav>
+                <div style="margin-left: 263px;">
+                <img id="menu" class="top">
+                <img id="icon_search" class="top">
+                <input type="text" placeholder="Search transactions, invoices or help" class="text-center top searchbar"><br><br>
+                <h5 style="margin-left: 37px;">Overview</h5>
+            </div>
+                <div class="container" style="margin-left: 100px;">
+                    <div class="row" style="margin-left: 168px;">
+                      
+                    <div class="col-md-4">
+                        <div class="card">
+                   <img src="img/graph.webp" class="image"> 
+                </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                        <img src="img/piechart_img.png" class="image"> 
+                    </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="card" style="height: 415px;border: 10px solid white;border-radius: 10px;">
+                        <img src="img/profile-pic-01.jpg" class="center pic1"> 
+                        <!-- <p class="center" style="font-size: 10px;margin-left: 92px;">Nick Herasimenka</p> 
+                        <p class="center" style="font-size: 10px;color: #c7c7d1;margin-top: -14px;margin-left: 102px;"> United States </p> -->
+                        <h6 class="text-center">Nick Herasimenka</h6>
+                        <h6 class="text-center usa">United States</h6>
+                        <div class="row center">
+                        <img id="icon_twitter">
+                        <img id="icon_facebook">
+                        <img id="icon_linkedin">
+                        <img id="icon_social-media">
+                      </div><br>
+                        <p style="font-size: 18px;color: #4d4f5c; height: 4px;">Our Users</p>
+                        
+                      <div class="column" style="margin-left: 10px;">
+                        <div class="row">
+                          <img src="img/profile-pic-03.jpg" class="pic"> 
+                          <div class="text">
+                            <h6>Drew James</h6>
+                            <h6 class="usa">United States</h6>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <img src="img/profile-pic-02.jpg" class="pic"> 
+                          <div class="text">
+                            <h6>Bavid Kames</h6>
+                            <h6 class="usa">United States</h6>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <img src="img/profile-pic-04.jpg" class="pic"> 
+                          <div class="text">
+                            <h6>Lavid Emes</h6>
+                            <h6 class="usa">United States</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                </div>
 
-}
+                 <div class="row" style="margin-top: -50px;">
+                <h5 style="margin-left: 211px;margin-top: -45px;" class="responsive">Referrer</h5><br>
+                <!-- <p style="margin-left: 211px;margin-top: -45px;background-color: white;">Referrer</p> -->
+                
+                <table class="table tables">
+                  <thead class="thead-light">
+                    <tr>
+                      <th>
+                        Location
+                      </th>
+                      <th>
+                        Views
+                      </th>
+                      <th>
+                        Sales
+                      </th>
+                      <th>
+                        Conversion
+                      </th>
+                      <th>
+                        Total
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td>google.com</td>
+                    <td>3746</td>
+                    <td>752</td>
+                    <td>43%</td>
+                    <td>$19,291</td>
+                  </tr>
+                  <tr>
+                    <td>facebook.com</td>
+                    <td>8126</td>
+                    <td>728</td>
+                    <td>32%</td>
+                    <td>$17,638</td>
+                  </tr>
+                  <tr>
+                    <td>twitter.com</td>
+                    <td>8836</td>
+                    <td>694</td>
+                    <td>28%</td>
+                    <td>$16,218</td>
+                  </tr>
+                  <tr>
+                    <td>Direct, email, IM</td>
+                    <td>1173</td>
+                    <td>645</td>
+                    <td>24%</td>
+                    <td>$14,421</td>
+                  </tr>
+                  <tr>
+                    <td>linkedin.com</td>
+                    <td>2739</td>
+                    <td>539</td>
+                    <td>29%</td>
+                    <td>$12,370</td>
+                  </tr>
+                  <tr>
+                    <td>Instagram.com</td>
+                    <td>2739</td>
+                    <td>539</td>
+                    <td>20%</td>
+                    <td>$12,370</td>
+                  </tr>
+                  <br>
+                  <tr>
+                    <td style="color: #3B86FF;">Show More</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+                </table>
+                <div class="card text-black mb-3 vid">
+                  <div style="padding: 0.5rem 1.25rem">Product Video</div>
+                  <div class="card-body">
+                    <video poster="img/video thumbnail.png" controls>
+                      <source src="img/Video.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                </div>
+                </div>
 
-.home{
-    top: 76px;
-left: 0px;
-width: 118px;
-height: 54px;
-/*background: #43425D 0% 0% no-repeat padding-box;*/
-opacity: 1;
-}
-
-.dashboard{
-    top: 136px;
-left: 0px;
-width: 118px;
-height: 54px;
-/*background: #3C3B54 0% 0% no-repeat padding-box;*/
-opacity: 1;
-}
-
-.sidemenu{
-    background: #43425D 0% 0% no-repeat padding-box;
-    color: #FFFFFF;
-    height: 617px;
-    width: 200px;
-    margin-left: -8px;
-    margin-top: -9px;
-    font: normal normal normal 16px/20px Source Sans Pro;
-}
-
-.menu{
-    padding-top: 3px;
-    text-align: left;
-    padding-left: 46px;
-    /*padding: 13px;*/
-}
+                    </div>
 
 
-
-</style>-->
-
-
-<html>
-    <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href='Dashboard.css' rel='stylesheet'>
-        <link href='https://css.gg/shape-square.css' rel='stylesheet'>
-    </head>
-    <body>
-        
-        <div class="sidemenu">
-            <!--<p class="acme" style="color: white; background-color: #3C3B54;">ACME</p>
-            <div class="home" style="color: #FFFFFF; top: 76px;">Home</div>
-            <div class="dashboard" style="color: #FFFFFF; background-color: #3C3B54;">Dashboard</div>
-            <div class="home" style="color: #FFFFFF; top: 196px;">Inbox</div>
-            <div class="home" style="color: #FFFFFF; top: 256px;">Products</div>
-            <div class="home" style="color: #FFFFFF; top: 316px;">Admin</div>-->
-
-            <p class="" style=" margin-left: 0px; padding: 15px; background-color: #3C3B54;">ACME</p>
-<div class="menu">
-    <div class="fa fa-home" style="padding: 13px;">Home</div>
-    <div class="gg-shape-square" style="padding: 13px; background-color: #3C3B54;">Dashboard</div>
-    <div class="fa fa-inbox" style="padding: 13px;">Inbox</div>
-    <div class="gg-shape-square" style="padding: 13px;">Products</div>
-    <div class="fa fa-gear" style="padding: 13px;">Admin</div>
-</div>
-
-        </div>
-        <div class="" style="margin-top: -593px;">
-            <i class="fa fa-bars" style="margin-left: 219px;"></i>
-            <i class="icons-search" style="margin-left: 10px;"></i>
-            <span style="margin-left: 10px;">Search transactions, invoices or help</span>
-        </div>
-        
-    
-    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
