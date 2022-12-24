@@ -180,26 +180,3 @@ video{
 }
 
 
-  /* @media (min-width: 2400px) {
-    .container {
-        width: 1920px; 
-    }
-  }
-
-  @media (max-width: 1920px) {
-    .container {
-        width: 1800px; 
-    }
-  } */
-
-  /* .container {
-    @media screen and (max-width: 1920px) {
-    width: 1800px; 
-    }
-} */
-
-@media screen and (min-width: 1920px) {
-  .container {
-    width: 1800px; 
-  }
-}
